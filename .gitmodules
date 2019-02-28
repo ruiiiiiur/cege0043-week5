@@ -1,0 +1,9 @@
+[submodule "ucesrji/www/js"]
+	path = ucesrji/www/js
+	url = https://github.com/ruiiiiiur/cege0043-jsReference
+[submodule "ucesrji/www/css"]
+	path = ucesrji/www/css
+	url = https://github.com/ruiiiiiur/cege0043-cssReference
+[submodule "ucesrji/www/images"]
+	path = ucesrji/www/images
+	url = https://github.com/ruiiiiiur/cege0043-imagesReference
