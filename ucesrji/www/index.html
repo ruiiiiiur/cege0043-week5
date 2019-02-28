@@ -134,7 +134,7 @@
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
           <a class="mdl-navigation__link" href=""onclick='getPort();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>GetPortTrash</a>
           <a class="mdl-navigation__link" href=""onclick='addPointLinePoly();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Add Polygon</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
+          <a class="mdl-navigation__link" href=""onclick='callDivNodeJSChange();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Change Div Content</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Purchases</a>
@@ -155,6 +155,11 @@
 
         <!-- the mapid div will hold the map -->
         <div id="mapid" style="width: 600px; height: 400px;"></div>
+
+
+        <div id="ajaxtest" style="width: 1600px; height: 20px;"></div>
+
+
         <!-- the following script will load the map and set the default view and zoom, as well as loading the
         basemap tiles -->
         <script>
