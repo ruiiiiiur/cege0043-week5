@@ -3,7 +3,7 @@ getPort();
 addPointLinePoly();
 trackLocation();   
 getEarthquakes();
-
+callDivChange();
 }
 
 
