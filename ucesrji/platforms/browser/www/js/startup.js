@@ -1,7 +1,9 @@
 function trackAndCircle(){
+getPort();
 addPointLinePoly();
 trackLocation();   
 getEarthquakes();
+
 }
 
 
