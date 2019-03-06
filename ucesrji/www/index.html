@@ -14,6 +14,8 @@
 -->
 <html lang="en">
   <head>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
@@ -73,7 +75,7 @@
     <link rel="stylesheet" href="ionicons.min.css">
 	  <link rel="stylesheet" href="leaflet.awesome-markers.css">
     <script src="js/leaflet.awesome-markers.js"></script>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
   </head>
 
 
@@ -154,13 +156,14 @@
 	          <div id="mapid" style="width: 600px; height: 400px;"></div>
 
             <h1>Change DIV content using AJAX</h1>
-            <div id="ajaxtext" style="width: 1600px; height: 20px;">this is the unchanged div content
+            
+            <div id="ajaxtext" style="width: 1600px; height: 20px;">
             <div w3-include-html="creatForm.html"></div>
+            </div>
 
 
 
             <div >
-
             <p>Type the html file name here - note you need to include .html</p>
             <input type="text" name="filename" id="filename" size=50>
 
@@ -180,6 +183,7 @@
 
    
 
+        <div id='showLocation'>Location will be displayed here</div>
 
         <!-- the following script will load the map and set the default view and zoom, as well as loading the
         basemap tiles -->
@@ -199,14 +203,14 @@
         </script> 
 
 
+        
+   <!--     <div id='div1'>DIV1</div> -->
 
       </main>
     </div>
 	
 	
-  <div id='showLocation'>Location will be displayed here</div>
-  
-  <div id='div1'>DIV1</div>
+
   
 	
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
