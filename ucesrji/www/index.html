@@ -153,15 +153,18 @@
 
 	          <div id="mapid" style="width: 600px; height: 400px;"></div>
 
+            <h1>Change DIV content using AJAX</h1>
+            <div id="ajaxtext" style="width: 1600px; height: 20px;">this is the unchanged div content
+            <div w3-include-html="creatForm.html"></div>
+
+
 
             <div >
 
-            <h1>Change DIV content using AJAX</h1>
             <p>Type the html file name here - note you need to include .html</p>
             <input type="text" name="filename" id="filename" size=50>
 
-            <div id="ajaxtext" style="width: 1600px; height: 20px;">this is the unchanged div content
-            <div w3-include-html="createForm.html"></div>
+           
             </div>
 
             <button id="button1" onclick="callDivNodeJSChange()">Click me to change the DIV content</button>
@@ -215,6 +218,7 @@
   <script src="js/utilities.js"></script>
   <script src="js/testAJAX.js"></script>  
   <script src="js/AJAX.js"></script>  
+  <script src="js/uploadData.js"></script>
 	<script>startup(); </script>
   </body>
 </html>
