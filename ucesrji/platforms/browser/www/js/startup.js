@@ -1,9 +1,10 @@
 function trackAndCircle(){
+loadW3HTML();
 getPort();
 addPointLinePoly();
 trackLocation();   
-getEarthquakes();
-
+//getEarthquakes();
+callDivChange();
 }
 
 
@@ -13,3 +14,6 @@ trackAndCircle ();
 }, false);
 }
 
+function loadW3HTML() {
+w3.includeHTML();
+}
