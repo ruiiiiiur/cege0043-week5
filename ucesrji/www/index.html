@@ -153,50 +153,27 @@
             <div class="demo-separator mdl-cell--1-col"></div>
             <div id="ucllogo" name="ucllogo">div goes here</div>
         </div>
-
+<h1>1</h1>>
         <!-- the mapid div will hold the map -->
         <div id="mapid" style="width: 600px; height: 400px;"></div>
-
+<h1>2</h1>>
         <h1>Change DIV content using AJAX</h1>
         <div id="ajaxtext" style="width: 1600px; height: 20px;"></div>
         <div w3-include-html="creatForm.html"></div>
+<h1>3</h1>>
 
-        <div >
-         <p>Type the html file name here - note you need to include .html</p>
-         <input type="text" name="filename" id="filename" size=50>
-         <button id="button1" onclick="callDivNodeJSChange()">Click me to change the DIV content</button>
-         <div id='div1'>DIV1</div> 
-        </div>
-        
+        <p>Type the html file name here - note you need to include .html</p>
+        <input type="text" name="filename" id="filename" size=50>
+       <div id='div1'>DIV1</div> 
+       <button id="button1" onclick="callDivNodeJSChange()">Click me to change the DIV content</button>
+      
+      <div id="showLocation">Show location</div>
        
-           
-        <!-- <div id='showLocation'>Location will be displayed here</div> -->
-
-        <!-- the following script will load the map and set the default view and zoom, as well as loading the
-        basemap tiles -->
-        <!--     <script>
-        // load the map
-        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-        // load the tiles
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        maxZoom: 18,
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '
-        +
-        ' <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,' 
-        +
-         'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        id: 'mapbox.streets'
-        }).addTo(mymap);
-        </script> 
-        -->
-
-        
- 
-
+          
       </main>
-    </div>
+
 	
-	
+	</div>
 
   
 	
@@ -210,6 +187,7 @@
   <script src="js/testAJAX.js"></script>  
   <script src="js/AJAX.js"></script>  
   <script src="js/uploadData.js"></script>
+
 	<script>startup(); </script>
   </body>
 </html>
