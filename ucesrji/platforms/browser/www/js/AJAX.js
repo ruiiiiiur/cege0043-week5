@@ -15,7 +15,8 @@ catch (e) {
 xhrNode.send();
 }
 
-function processDivNodeJSChange() {
+function processDivNodeJSChange() 
+{
 if (xhrNode.readyState < 4) // while waiting response from server
 {document.getElementById('ajaxtext').innerHTML = "Loading...";}
 else if (xhrNode.readyState === 4) { // 4 = Response from server has been completely loaded.
