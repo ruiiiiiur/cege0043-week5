@@ -4,7 +4,7 @@ getPort();
 addPointLinePoly();
 trackLocation();   
 //getEarthquakes();
-getforms();
+//getforms();
 //callDivChange();
 }
 

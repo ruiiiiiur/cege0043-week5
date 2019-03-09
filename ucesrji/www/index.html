@@ -133,8 +133,8 @@
         </header>
 
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
+          <a class="mdl-navigation__link" href=""onclick='load_london_poi();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>London poi</a>
+          <a class="mdl-navigation__link" href=""onclick='load_london_highway();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>London highway</a>
           <a class="mdl-navigation__link" href=""onclick='getPort();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>GetPortTrash</a>
           <a class="mdl-navigation__link" href=""onclick='addPointLinePoly();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Add Polygon</a>
           <a class="mdl-navigation__link" href=""onclick='callDivNodeJSChange();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Change Div Content</a>
@@ -225,6 +225,7 @@
   <script src="js/AJAX.js"></script>  
   <script src="js/uploadData.js"></script>
   <script src="js/loadFormData.js"></script>  
+  <script src="js/loadGeoJSON.js"></script>  
 
   <script>startup(); </script>
   </body>
