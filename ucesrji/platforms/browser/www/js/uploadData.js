@@ -39,7 +39,7 @@ processData(postString);
 var client; // the global variable that holds the request
 
 
-
+// week6 part2 
 function processData(postString) {
 client = new XMLHttpRequest();
 postString = postString + "&port_id=" + httpPortNumber;
@@ -49,7 +49,6 @@ client.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 client.onreadystatechange = dataUploaded;
 client.send(postString);
 }
-
 
 
 
