@@ -8,14 +8,14 @@ var london_highway = 'london_highway'
 
 function load_london_poi(){
 		alert("Loading london poi");
-	getGeoJSON(london_poi);
+	getGeoJSONs(london_poi);
 
 }
 
 
 function load_london_highway(){
 		alert("Loading london highway");
-	getGeoJSON(london_highway);
+	getGeoJSONs(london_highway);
 }
 
 
